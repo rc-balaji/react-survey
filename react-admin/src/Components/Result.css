@@ -1,0 +1,60 @@
+/* Result.css */
+
+/* Result Container */
+.result-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Result Heading */
+  .result-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Result Table */
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .result-table th,
+  .result-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .result-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .result-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .result-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 768px) {
+    .result-table {
+      font-size: 14px;
+    }
+  
+    .result-table th,
+    .result-table td {
+      padding: 8px 10px;
+    }
+  }
+  
